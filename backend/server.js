@@ -36,8 +36,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const notificationRoutes = require('../routes/notifications');
-const eventRoutes = require('../routes/eventRoutes');
+ const notificationRoutes = require('./routes/notifications');
+ const eventRoutes = require('./routes/eventRoutes');
 
 const app = express();
 app.use(cors());
